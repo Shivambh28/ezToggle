@@ -1,3 +1,8 @@
+/*  Author: Shivam Bhalla
+	Email: shivambh28@gmail.com
+	Author URL: http://devncode.com
+	License: OpenSource, Permission for modificatin Granted, KEEP AUTHOR INFORMATION INTACT 
+*/
 (function($){
 	$.fn.ezToggle = function(options) {
 		var defaults = {
