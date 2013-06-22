@@ -14,13 +14,14 @@ How to Use:
 	</div>
 	```
 
-3. In document.ready function:
-	
+3. In document.ready JQuery function:
+	```html
 	$('.dd').ezToggle({
 	   selector : '.selector',
 	   minHeight : 30,
 	   speed : 500
 	});
+	```
 
 Available config options:
 -------------------------
