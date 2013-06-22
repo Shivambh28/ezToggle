@@ -1,5 +1,7 @@
-ezToggle is a jQuery based toggle plugin created by Shivam Bhalla. 
-==================================================================
+ezToggle  
+========
+Easily toggle with set min height divs or forms using ezToggle.js. Simple yet powerful. Created by Shivam Bhalla. 
+
 How to Use:
 -----------
 1. Include ezToggle.js after JQuery.
@@ -24,4 +26,7 @@ Available config options:
 Know bugs: 
 ----------
 var minHeight value is not configurable yet. Working on fix :)
+
+LICENCE: The MIT License (MIT)
+http://opensource.org/licenses/MIT
 
