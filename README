@@ -1,7 +1,7 @@
 ezToggle is a jQuery based toggle plugin created by Shivam Bhalla. 
-
+==================================================================
 How to Use:
-
+-----------
 1. Include ezToggle.js after JQuery.
 2. Create basic HTML structure as shown below:
 <div class="dd"><!-- opened class is optional -->
@@ -16,11 +16,12 @@ How to Use:
 	});
 
 Available config options:
+-------------------------
 1. Selector (default = '.selector')
 2. Minimized Height (default = '.selector.height();')
 3. Speed of Animation (default = '200')
 
-This plugin is currently under development.
-
-Know bugs: var minHeight is not configurable yet. 
+Know bugs: 
+----------
+var minHeight value is not configurable yet. Working on fix :)
 
