@@ -8,7 +8,6 @@
 			uSel = $(defaults.selector),
 			sHei = Math.floor($(defaults.selector).outerHeight(true)),
 			spd  = defaults.speed;
-			console.log(sHei);
 		return this.each(function() {
 			var o    = options,
 				yDiv = $(this),
