@@ -1,6 +1,6 @@
 ezToggle  
 ========
-Easily toggle with set min height divs or forms using ezToggle.js. Simple yet powerful. Created by Shivam Bhalla. 
+Easily slideToggle between divs using a main selector element. Simple and easy to use. Created by Shivam Bhalla. 
 
 How to Use:
 -----------
@@ -27,6 +27,8 @@ Know bugs:
 ----------
 var minHeight value is not configurable yet. Working on fix :)
 
-LICENCE: The MIT License (MIT)
+LICENCE: 
+--------
+The MIT License (MIT)
 http://opensource.org/licenses/MIT
 
