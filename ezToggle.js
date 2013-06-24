@@ -9,9 +9,7 @@
 			selector: '.selector',
 			minHeight : $('.selector').outerHeight(true),
 			speed : 200
-		},  options =  $.extend(defaults, options),
-			uSel = $(defaults.selector),
-			spd  = defaults.speed;
+		},  options =  $.extend(defaults, options);
 		return this.each(function() {
 			var o    = options,
 				yDiv = $(this),
@@ -19,12 +17,12 @@
 			$(yDiv).not('.opened').addClass('closed');
 			$('.closed').height(defaults.minHeight);
 			$('.opened').height(oHei);
-			uSel.click(function() {
+			$(defaults.selector).click(function() {
 				if ($(this).closest(yDiv).hasClass('closed') ) {
-					$('.opened').removeClass('opened').addClass('closed').animate({height:defaults.minHeight}, spd);
-					$(this).closest(yDiv).removeClass('closed').addClass('opened').animate({height:oHei}, spd);
+					$('.opened').removeClass('opened').addClass('closed').animate({height:defaults.minHeight}, defaults.speed);
+					$(this).closest(yDiv).removeClass('closed').addClass('opened').animate({height:oHei}, defaults.speed);
 				} else if ( $('.opened').length == 1 ) {
-					$(this).closest(yDiv).removeClass('opened').addClass('closed').animate({height:defaults.minHeight}, spd);
+					$(this).closest(yDiv).removeClass('opened').addClass('closed').animate({height:defaults.minHeight}, defaults.speed);
 				}
 			});
 		});
