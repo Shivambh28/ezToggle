@@ -4,14 +4,14 @@
 	<title>SlideToggle JQuery Plugin Demo</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 	<style type="text/css">
-	* { margin: 0; padding: 0;}
+	* { margin: 0; padding: 0; outline: 0; border: 0}
 	h1 { color:#3598DB; font-family: helvetica; font-weight: 100; text-align: center; margin-bottom: 5px;}
 	p { font-family: helvetica; font-size: 12px; text-align: center; margin-bottom: 100px; display: block; float: left; width: 100%; color:#666; font-weight: 100; margin-top: 10px;}
 	#container { width: 80%;  margin: 5% auto}
-	.dd button { width:100%; border:0; background:#3598DB; float:left; padding: 15px 0; cursor:pointer; color:#fff; text-transform: lowercase; font-size: 13px; font-family: helvetica; transition:all .3s; font-weight: 100; text-align: left; text-indent: 30px; position: relative;}
+	.dd button { width:100%; border:0; background:#3598DB; float:left; padding: 15px 0; cursor:pointer; color:#fff; text-transform: lowercase; font-size: 13px; font-family: helvetica; font-weight: 100; text-align: left; text-indent: 30px; position: relative; border-radius: 25px 25px 0px 0px; -webkit-border-radius: 25px 25px 0px 0px; -moz-border-radius: 25px; border-radius: 25px 25px 0px 0px;}
 	.dd button:hover { background-color: #5DADE2;}
 	.dd button .a { position: absolute; right: 25px; top: 20px; width: 0; height: 0;  border-left: 6px solid transparent; border-right: 6px solid transparent; border-top: 6px solid #fff;}
-	.dd { width:100%; height:200px; background: #eee; float:left; margin-bottom: 1px; overflow: hidden; clear: both; -webkit-border-radius: 25px; -moz-border-radius: 25px; border-radius: 25px; box-shadow: 0px 0px 8px #eee; }
+	.dd { width:100%; height:200px; background: #eee; float:left; margin-bottom: 1px; overflow: hidden; clear: both; -webkit-border-radius: 25px; -moz-border-radius: 25px; border-radius: 25px; box-shadow: 0px 0px 8px #eee; overflow: hidden}
 	</style>
 	<script type="text/javascript" src="jQuery.min.10.1.js"></script>
 	<script type="text/javascript" src="ezToggle.js"></script>
