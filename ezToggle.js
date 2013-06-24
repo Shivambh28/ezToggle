@@ -7,9 +7,10 @@
 	$.fn.ezToggle = function(options) {
 		var defaults = {
 			selector: '.selector',
-			minHeight : $('.selector').outerHeight(true),
 			speed : 200
-		},  options =  $.extend(defaults, options);
+		}
+		defaults.minHeight = $(defaults.selector).outerHeight(true);
+	   	var options =  $.extend(defaults, options);
 		return this.each(function() {
 			var o    = options,
 				yDiv = $(this),
