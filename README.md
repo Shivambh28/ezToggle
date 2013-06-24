@@ -16,18 +16,26 @@ How to Use:
 
 3. In document.ready JQuery function:
 	```html
+	// Using default configuration
+	$('.dd').ezToggle();
+
+	// Using custom configuration
 	$('.dd').ezToggle({
 	   selector : '.selector',
-	   minHeight : 30,
+	   minHeight :  30,
 	   speed : 500
 	});
 	```
 
-Available config options:
+Available Configuration options:
 -------------------------
-1. Selector (default = '.selector')
-2. Minimized Height (default = '.selector.height();')
-3. Speed of Animation (default = '200')
+    ```html         
+       OPTION        DEFAULT VALUE
+       
+	   selector      Default class .selector
+	   minHeight     Default height is .selector height
+	   speed         Default 500 milliseconds
+	```
 
 Know bugs: 
 ----------
