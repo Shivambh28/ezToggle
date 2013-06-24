@@ -29,13 +29,13 @@ How to Use:
 
 Available Configuration Options:
 -------------------------
-    ```        
-       OPTION        DEFAULT VALUE
+      
+   OPTION        DEFAULT VALUE
 
-	   selector      Default class .selector
-	   minHeight     Default height is .selector height
-	   speed         Default 500 milliseconds
-	```
+   selector      Default class .selector
+   minHeight     Default height is .selector height
+   speed         Default 500 milliseconds
+	
 
 LICENCE: 
 --------
