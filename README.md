@@ -27,19 +27,15 @@ How to Use:
 	});
 	```
 
-Available Configuration options:
+Available Configuration Options:
 -------------------------
-    ```html         
+    ```        
        OPTION        DEFAULT VALUE
-       
+
 	   selector      Default class .selector
 	   minHeight     Default height is .selector height
 	   speed         Default 500 milliseconds
 	```
-
-Know bugs: 
-----------
-var minHeight value is not configurable yet. Working on fix :)
 
 LICENCE: 
 --------
