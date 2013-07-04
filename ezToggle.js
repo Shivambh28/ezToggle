@@ -16,10 +16,11 @@
 			return this.each(function() {
 					
 				var originalHeight = $(this).outerHeight(true);
-				defaults.minHeight = $(this).find(defaults.selector).outerHeight(true);
+
+				options.minHeight = options.minHeight || $(this).find(defaults.selector).outerHeight(true);
 
 				if (!$(this).hasClass(defaults.openedClassName)) {
-					$(this).addClass(defaults.closedClassName).height(defaults.minHeight);
+					$(this).addClass(defaults.closedClassName).height(options.minHeight);
 				} 		
 
 				$(this).find(defaults.selector).on('click', function(e) {
@@ -33,7 +34,7 @@
 							.removeClass(defaults.openedClassName)
 							.addClass(defaults.closedClassName)
 							.animate( {
-								height : defaults.minHeight
+								height : options.minHeight
 							}, defaults.speed );
 
 						$parent.removeClass(defaults.closedClassName)
@@ -47,7 +48,7 @@
 						$parent.removeClass(defaults.openedClassName)
 							   .addClass(defaults.closedClassName)
 							   .animate({
-							       height : defaults.minHeight
+							       height : options.minHeight
 							   }, defaults.speed);
 
 					}
