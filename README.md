@@ -2,6 +2,8 @@ ezToggle
 ========
 Easily slideToggle between divs using a main selector element. Simple and easy to use. Created by Shivam Bhalla. 
 
+DEMO: https://rawgithub.com/Shivambh28/ezToggle/master/demo.html
+
 How to Use:
 -----------
 1. Include ezToggle.js after JQuery.
