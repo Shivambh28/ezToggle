@@ -23,7 +23,7 @@
 					$(this).addClass(defaults.closedClassName).height(options.minHeight);
 				} 		
 
-				$(this).find(defaults.selector).on('click', function(e) {
+				$(this).children(defaults.selector).on('click', function(e) {
 					e.preventDefault();
 
 					var $parent = $(this).parent();
